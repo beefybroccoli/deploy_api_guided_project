@@ -57,3 +57,6 @@ checklist to ensure API is deployable
 _insert "start":"node index.js" in package.json file
 _const PORT = process.env.PORT || 5000 in index.js
 */
+
+//continue at 49:20
+//https://www.youtube.com/watch?v=c6wjuGfRF6E&list=WL&index=2
