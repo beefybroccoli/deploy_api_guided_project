@@ -46,6 +46,7 @@ npm i express
 npm i
 npx eslint --init, then select default
 npm i -D nodemon
+npm i dotenv
 inside package.json, add the below lines
  _"start":"node index.js"
  _"sever":"nodemon index.js"
