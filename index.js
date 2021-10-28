@@ -45,5 +45,14 @@ git init -create a git repo
 npm i express
 npm i
 npx eslint --init, then select default
+npm i -D nodemon
+inside package.json, add the below lines
+ _"start":"node index.js"
+ _"sever":"nodemon index.js"
+*/
 
+/*
+checklist to ensure API is deployable
+_insert "start":"node index.js" in package.json file
+_const PORT = process.env.PORT || 5000 in index.js
 */
