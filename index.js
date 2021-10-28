@@ -31,3 +31,10 @@ How to inject sensitive data into our program through environmental variables?
 By run the following code in the command line
  'FOO="lady gaga" node index.js'
 */
+
+/*
+What are the two ways to provide input into a node application?
+There are two ways to provide input into a node application:
+_command line argument (node index.js 45 56 67)
+_using environmental variable to pass the variables into a node application
+*/
