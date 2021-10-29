@@ -1,22 +1,22 @@
-function web47(){
-    console.log("web 47");
- }
+function web47() {
+  console.log("web 47");
+}
 
- /*
+/*
 inject arguments from command line
  */
- function injectVariables(){
-     console.log("process.argv = ", process.argv)
-     console.log("index 2 = ", process.argv[2])
- }
- injectVariables();
+function injectVariables() {
+  console.log("process.argv = ", process.argv);
+  console.log("index 2 = ", process.argv[2]);
+}
+injectVariables();
 
- /*
+/*
 these environmental variables are used for various purposes
  */
- function viewEnvironmentVariables(){
-     console.log("environment variables = ", process.env);
- }
+function viewEnvironmentVariables() {
+  console.log("environment variables = ", process.env);
+}
 viewEnvironmentVariables();
 
 /*
@@ -56,6 +56,9 @@ inside package.json, add the below lines
 checklist to ensure API is deployable
 _insert "start":"node index.js" in package.json file
 _const PORT = process.env.PORT || 5000 in index.js
+_create .env file and store variables (PORT, COHORT, etc)
+_create a new/empty repository on Github
+_git remote add origin (link to a repository)
 */
 
 //continue at 49:20
